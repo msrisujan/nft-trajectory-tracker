@@ -1,0 +1,144 @@
+
+.home_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    height: 100vh;
+}
+
+.top_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    padding: 20px 40px;
+    margin: 10px 10px;
+    background-color: #00796b;
+    color: #fff;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 2px solid #fff;
+    text-align: center;
+    /* box-shadow: rgba(255, 255, 255, 0.7) 0px 3px 8px; */
+    font-weight: bold;
+}
+
+
+#assetid{
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Chrome, Safari, Edge, Opera */
+#assetid::-webkit-outer-spin-button,
+#assetid::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.time_stamp{
+    margin: 0!important;
+    padding: 0px 10px;
+}
+
+
+#networktype{
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 5px 20px;
+}
+
+option{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+.search_btn{
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 40px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    transition: all .3s;
+}
+
+.search_btn:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+
+.search_btn:active{
+    border: 1px solid #fff;
+}
+
+.bottom_section{
+    border: 2px solid #fff;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    color: #fff;
+    height: 80%;
+    margin-bottom: 20px;
+    border-top: 0;
+}
+
+
+.tracker_div{
+    height: 100%;
+    overflow-y: scroll;
+    flex: auto;
+    padding: 0px 10px;
+}
+
+.piechart_div{
+    padding: 10px;
+}
+
+.hover_effect{
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+.hover_effect:hover{
+    cursor: pointer;
+    transform: translateX(10px);
+    background-color: #000;
+}
+
+.hover_effect > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.loading_animation{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.txn_type{
+    display: inline-block;
+}
+
+.txn_type::first-letter{
+    text-transform: capitalize;
+}
