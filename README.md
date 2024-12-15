@@ -44,8 +44,8 @@ NFT Trajectory Tracker is a **user-friendly platform** for tracking the complete
    MONGO_URI=<YOUR_MONGO_URI>
 
    # Indexer URLs for blockchain
-   TESTNET_INDEXER_URL=https://testnet-idx.4160.nodely.dev
-   MAINNET_INDEXER_URL=https://mainnet-idx.4160.nodely.dev
+   TESTNET_INDEXER_URL=<Your Testnet Indexer URL>
+   MAINNET_INDEXER_URL=<Your Mainnet Indexer URL>
    LOCALNET_INDEXER_URL=http://localhost
 
    # Indexer ports
